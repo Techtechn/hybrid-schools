@@ -1,0 +1,23 @@
+.Header {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("../../assets/banner.png") no-repeat center;
+  background-size: cover;
+  height: 90vh;
+  width: 100vw;
+
+  // .first-block {
+  //   padding: 5rem 1rem;
+  //   margin: auto;
+  //   display: flex;
+  //   flex-wrap: wrap;
+  //   justify-content: center;
+  // }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Header {
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+      url("../../assets/banner.png") no-repeat top center;
+    background-size: cover;
+  }
+}
