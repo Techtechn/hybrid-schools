@@ -1,0 +1,35 @@
+.AboutSection {
+  .double-pill {
+    aspect-ratio: 1060/700;
+    width: 19rem;
+    position: relative;
+  }
+  .double-pill .pill {
+    width: 24%;
+    aspect-ratio: 250/530;
+    border-radius: 4rem;
+    overflow: hidden;
+    position: absolute;
+  }
+  .double-pill .pill .img {
+    width: 25rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .double-pill .pill-1 {
+    left: 17%;
+    top: 22%;
+  }
+  .double-pill .pill-1 .img {
+    left: -71%;
+    top: -29%;
+  }
+  .double-pill .pill-2 {
+    left: 45%;
+    top: 0%;
+  }
+  .double-pill .pill-2 .img {
+    left: -188%;
+  }
+}
