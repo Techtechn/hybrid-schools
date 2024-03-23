@@ -2,6 +2,8 @@ import React from "react";
 import "./AboutSection.scss";
 import Image from "next/image";
 import Img from "../../assets/pill-image.png";
+import quote from "../../assets/quote.svg"
+
 
 const AboutSection = () => {
   return (
@@ -10,7 +12,8 @@ const AboutSection = () => {
         <div className="mt-5">
           <div className="p-3 space-y-2 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
             <div className="text-center">
-              <p className="text-[21] text-[#707070]">
+              <p className=" quo text-[21] text-[#707070]">
+              <Image src={quote} alt="quotation mark" width={50} />
                 Education is our passport to the future, for tomorrow belongs to
                 the people who prepare for it today.
               </p>

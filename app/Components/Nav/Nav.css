@@ -79,7 +79,7 @@ body .fixed-logo .fixed-text p {
 }
 
 .desktop {
-  display: none;
+  display: block;
 }
 
 .header1 {
@@ -103,7 +103,7 @@ body .fixed-logo .fixed-text p {
   margin-left: 0rem;
 }
 .header1 .top .contact-list .contact-block .name {
-  font-size: clamp(0.55rem, 0.0577rem + 0.7692vw, 0.75rem);
+  font-size: 10px;
   font-weight: 300;
   color: #707070;
   white-space: nowrap;

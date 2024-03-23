@@ -13,6 +13,13 @@
   //   justify-content: center;
   // }
 }
+.p{
+  width: 23rem;
+}
+.b{
+  border-radius: 0 10px 10px 0;
+  padding: 0.5rem 1rem;
+}
 
 @media (max-width: 600px) {
   .Header {
