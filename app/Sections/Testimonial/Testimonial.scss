@@ -1,5 +1,12 @@
-.test{
- text-align: center;
- margin: 5rem;
- font-weight: 500;
+.Testimonial {
+  .card {
+    border-radius: 10% 10% 0 0;
+    // border-top-left-radius: 15%;
+    // border-top-right-radius: 15%;
+  }
+
+  .border-r-c {
+    border-radius: 0 10px 10px 0;
+    // padding: 0.5rem 1rem;
+  }
 }
