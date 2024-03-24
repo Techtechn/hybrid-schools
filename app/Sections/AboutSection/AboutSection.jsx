@@ -22,14 +22,15 @@ const AboutSection = () => {
           <div className="p-3 space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {/* img */}
             <div className="text-center">
+              <Image className="imgOne" src={Img} alt="Image" />
               <div class="double-pill">
                 <div class="pill pill-1">
                   {" "}
-                  <Image className="img" src={Img} alt="Image" />
+                  <Image className="imgOne" src={Img} alt="Image" />
                 </div>
                 <div class="pill pill-2">
                   {" "}
-                  <Image className="img" src={Img} alt="Image" />
+                  <Image className="imgOne" src={Img} alt="Image" />
                 </div>
               </div>
             </div>
