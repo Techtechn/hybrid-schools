@@ -8,6 +8,8 @@ import Administration from "../Sections/Administration/Administration";
 import Pricing from "../Sections/Pricing/Pricing";
 import Institution from "../Sections/Institution/Institution";
 import News from "../Sections/News/News";
+import Academic from "../Sections/Academic/Academic";
+import Contact from "../Sections/Contact/Contact";
 
 const Home = () => {
   return (
@@ -21,6 +23,8 @@ const Home = () => {
       <Pricing />
       <Institution />
       <News />
+      <Academic />
+      <Contact />
     </div>
   );
 };

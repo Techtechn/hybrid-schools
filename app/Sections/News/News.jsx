@@ -41,7 +41,7 @@ const News = () => {
                   now open at our esteemed institution!{" "}
                 </p>
               </div>
-              <hr className="mt-5 mb-5 bg-black" />
+              <hr className="mt-5 mb-5 bg-black" style={{ height: "2px" }} />
               <div className="mt-5">
                 <p className="text-right text-sm text-black">July 18 2023</p>
               </div>
@@ -61,7 +61,7 @@ const News = () => {
                   now open at our esteemed institution!{" "}
                 </p>
               </div>
-              <hr className="mt-5 mb-5 bg-black" />
+              <hr className="mt-5 mb-5 bg-black" style={{ height: "2px" }} />
               <div className="mt-5">
                 <p className="text-right text-sm text-black">July 18 2023</p>
               </div>
@@ -81,7 +81,7 @@ const News = () => {
                   now open at our esteemed institution!{" "}
                 </p>
               </div>
-              <hr className="mt-5 mb-5 bg-black" />
+              <hr className="mt-5 mb-5  bg-black" style={{ height: "2px" }} />
               <div className="mt-5">
                 <p className="text-right text-sm text-black">July 18 2023</p>
               </div>
