@@ -1,10 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../assets/inst-4.jpg";
+import Img from "../../assets/Inst-4.jpg";
 import Img2 from "../../assets/news-1.jpg";
 import Img3 from "../../assets/news-2.jpg";
 import Img4 from "../../assets/news-3.jpg";
 import Img5 from "../../assets/inst-6.jpg";
+import Blue from "../../assets/inst-3.jpg";
 import { ImQuotesLeft } from "react-icons/im";
 
 const Institution = () => {
@@ -16,7 +17,7 @@ const Institution = () => {
           <div className="">
             <div class="grid grid-rows-3 grid-flow-col gap-4">
               <div class="row-span-3">
-                <Image className="w-full h-64" src={Img3} alt="Ins" />
+                <Image className="w-full h-64" src={Blue} alt="Ins" />
               </div>
               <div class="col-span-2">
                 <Image src={Img} alt="Ins" />
