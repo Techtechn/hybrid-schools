@@ -20,10 +20,10 @@ const Pricing = () => {
           <div className="p-3 mt-10 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
             <div className="">
               <div>
-                <h6 className="font-bold text-lg text-center">
+                <h6 className="font-bold text-lg text-center text-black">
                   <span className="text-[#F06021]">School</span> Uniform
                 </h6>
-                <p className="mt-5 font-extralight text-sm">
+                <p className="mt-5 font-extralight text-sm text-black">
                   At our school, we believe in the importance of a school
                   uniform as it fosters a sense of identity, unity, and equality
                   among our students. The school uniform serves as a visual

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../assets/pill-image-3.png";
+import PillOne from "../../assets/Admission-pill-1.jpg";
+import PillTwo from "../../assets/Admission-pill-2.jpg";
 import { ImQuotesLeft } from "react-icons/im";
 
 const Administration = () => {
@@ -87,7 +88,20 @@ const Administration = () => {
             </div>
             {/* img */}
             <div className="">
-              <Image src={Img} alt="Img" />
+              {/* <Image src={Img} alt="Img" /> */}
+              <div className="flex justify-around" style={{ gap: "-5px" }}>
+                <Image
+                  className="py-8"
+                  src={PillOne}
+                  alt="Pill Image"
+                  style={{ width: "150px" }}
+                />
+                <Image
+                  src={PillTwo}
+                  alt="Pill Image"
+                  style={{ width: "150px" }}
+                />
+              </div>
             </div>
           </div>
         </div>

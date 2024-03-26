@@ -1,14 +1,15 @@
 import React from "react";
 import "./AboutSection.scss";
 import Image from "next/image";
-import Img from "../../assets/pill-image.png";
+import PillOne from "../../assets/about-pill-img-1.jpg";
+import PillTwo from "../../assets/about-pill-img-2.jpg";
 import quote from "../../assets/quote.svg";
 import { ImQuotesLeft } from "react-icons/im";
 
 const AboutSection = () => {
   return (
     <div className="AboutSection" id="AboutSection">
-      <div className="p-10 bg-white text-black">
+      <div className="p-5 bg-white text-black">
         <div className="mt-5">
           <div className="p-3 space-y-2 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
             <div className="text-center">
@@ -18,22 +19,24 @@ const AboutSection = () => {
                 the people who prepare for it today.
               </p>
             </div>
+            <div className=""></div>
           </div>
-          <div className="p-3 space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
+          <div className="space-y-2 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {/* img */}
-            <div className="text-center">
-              <Image className="imgOne" src={Img} alt="Image" />
-              <div class="double-pill">
-                <div class="pill pill-1">
-                  {" "}
-                  <Image className="imgOne" src={Img} alt="Image" />
-                </div>
-                <div class="pill pill-2">
-                  {" "}
-                  <Image className="imgOne" src={Img} alt="Image" />
-                </div>
-              </div>
+            <div className="flex justify-around" style={{ gap: "-5px" }}>
+              <Image
+                className="py-8"
+                src={PillOne}
+                alt="Pill Image"
+                style={{ width: "100px", height: "200px" }}
+              />
+              <Image
+                src={PillTwo}
+                alt="Pill Image"
+                style={{ width: "100px", height: "200px" }}
+              />
             </div>
+
             {/* text-1 */}
             <div className="">
               {/* */}

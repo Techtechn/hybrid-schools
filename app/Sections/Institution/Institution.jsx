@@ -1,8 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import Img from "../../assets/inst-1.jpg";
-import Img2 from "../../assets/inst-2.jpg";
-import Img3 from "../../assets/inst-3.jpg";
+import Img from "../../assets/inst-4.jpg";
+import Img2 from "../../assets/news-1.jpg";
+import Img3 from "../../assets/news-2.jpg";
+import Img4 from "../../assets/news-3.jpg";
+import Img5 from "../../assets/inst-6.jpg";
 import { ImQuotesLeft } from "react-icons/im";
 
 const Institution = () => {
@@ -71,7 +73,7 @@ const Institution = () => {
           <div className="p-3 space-y-2 lg:grid lg:grid-cols-4 lg:gap-x-6 lg:space-y-0">
             {/* text  */}
             <div className="text-center">
-              <h6 className="font-bold text-2xl">
+              <h6 className="font-bold text-2xl text-black">
                 <span className="text-[#F06021]">Our</span> Institution
               </h6>
             </div>
@@ -157,10 +159,10 @@ const Institution = () => {
             {/* Images */}
             <div className="">
               <div className="p-3 space-y-2 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
-                <Image className="mt-3 mb-3" src={Img2} alt="img" />
-                <Image className="mt-3 mb-3" src={Img2} alt="img" />
-                <Image className="mt-3 mb-3" src={Img2} alt="img" />
-                <Image className="mt-3 mb-3" src={Img2} alt="img" />
+                <Image className="mt-3 mb-3" src={Img} alt="img" />
+                <Image className="mt-3 mb-3" src={Img5} alt="img" />
+                <Image className="mt-3 mb-3" src={Img3} alt="img" />
+                <Image className="mt-3 mb-3" src={Img4} alt="img" />
               </div>
             </div>
             {/* Text */}

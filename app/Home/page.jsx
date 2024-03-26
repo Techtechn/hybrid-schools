@@ -10,6 +10,7 @@ import Institution from "../Sections/Institution/Institution";
 import News from "../Sections/News/News";
 import Academic from "../Sections/Academic/Academic";
 import Contact from "../Sections/Contact/Contact";
+import Footer from "../Sections/Footer/Footer";
 
 const Home = () => {
   return (
@@ -25,6 +26,7 @@ const Home = () => {
       <News />
       <Academic />
       <Contact />
+      <Footer />
     </div>
   );
 };

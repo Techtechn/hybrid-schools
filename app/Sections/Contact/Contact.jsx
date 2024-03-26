@@ -31,25 +31,25 @@ const Contact = () => {
                   <h6 className="text-black font-semibold">
                     <span className="text-[#F06021]">Operational</span> Times
                   </h6>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Monday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Tuesday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Wednesday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Thursday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Friday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span>06h30 to 17h30</span> <span>Saturday</span>
                   </p>
-                  <p className="mt-5 flex justify-between">
+                  <p className="mt-5 flex justify-between text-black">
                     <span className="text-red-600">Closed</span>{" "}
                     <span>Sunday</span>
                   </p>
@@ -109,11 +109,11 @@ const Contact = () => {
                     />
                   </div>
                   <div className="mt-3">
-                    <label className="w-full text-sm mb-2">Name</label>
+                    <label className="w-full text-sm mb-2">Message</label>
                     <textarea
                       id=""
                       className="p-2 w-full border bg-transparent border-white"
-                      cols="20"
+                      cols="10"
                       rows="10"
                     ></textarea>
                   </div>
