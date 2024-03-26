@@ -58,7 +58,7 @@ const Administration = () => {
               <h6 className="text-black font-bold">
                 <span className="text-[#F06021]">School</span> Fees
               </h6>
-              <p className="mt-5 text-sm">
+              <p className="mt-5 text-sm text-black">
                 At our school, we believe in providing a high-quality education
                 that prepares students for a successful future. As with any
                 educational institution, there are costs associated with running
@@ -76,7 +76,7 @@ const Administration = () => {
             </div>
             {/* text-2 */}
             <div className="">
-              <p className="mt-5 text-sm">
+              <p className="mt-5 text-sm text-black">
                 We encourage you to reach out to our admissions office for
                 detailed information on school fees, including any available
                 payment plans, scholarships, or financial aid options. We are
